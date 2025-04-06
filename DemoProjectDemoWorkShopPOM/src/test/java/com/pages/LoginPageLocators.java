@@ -1,5 +1,7 @@
 package com.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -19,5 +21,7 @@ public class LoginPageLocators {
     
     @FindBy(linkText="Log out")
     public WebElement logoutButton;
+    
+   
     
 }

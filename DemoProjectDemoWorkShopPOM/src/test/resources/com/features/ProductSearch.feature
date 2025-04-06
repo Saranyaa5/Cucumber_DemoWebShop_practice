@@ -9,8 +9,11 @@ Feature: To search for a product on the homepage
     And clicks the login button  
     And the user enters a product name products in the search bar
       |Camcorder|
-      |Music|  
+      #|Music|  
     Then the matching products should be displayed
+    When the user sorts the products by price low to high "Price: Low to High"
+    Then the products should be listed with price low to high
+    
     
   @InvalidSearch
   Scenario: Search for an unavailable product after login

@@ -1,5 +1,6 @@
 package com.definitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import java.util.*;
@@ -32,5 +33,17 @@ public void the_matching_products_should_be_displayed() throws InterruptedExcept
 @Then("the message {string} should be displayed")
 public void the_message_should_be_displayed(String string) {
 	Assert.assertTrue(searchPageAction.getSeachResultOfInvalidInput().equals(string),"Search is not implemented");
+}
+
+@When("the user sorts the products by price low to high {string}")
+public void the_user_sorts_the_results_by(String sortOption) {
+    searchPageAction.selectSortOption(sortOption);
+}
+
+@Then("the products should be listed with price low to high")
+public void the_products_should_be_sorted_by_price_from_low_to_high() {
+    Assert.assertTrue(searchPageAction.arePricesSortedLowToHigh(), 
+        "Products are not sorted by price low to high");
+    System.out.println("Product prices: " + searchPageAction.getAllProductPrices());
 }
 }
