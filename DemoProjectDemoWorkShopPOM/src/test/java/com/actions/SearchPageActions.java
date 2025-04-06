@@ -1,13 +1,16 @@
 package com.actions;
 
 import java.awt.RenderingHints.Key;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.pages.SearchPageLocators;
 import com.utilities.HelperClass;
@@ -29,10 +32,17 @@ public class SearchPageActions {
 	    return searchPageLocators.searchTitle.getText();
 	}
 	
+//	public String getSeachResultOfInvalidInput() {
+//	    return searchPageLocators.InvalidsearchResult.getText();
+//	}
+//	
 	public String getSeachResultOfInvalidInput() {
-	    return searchPageLocators.InvalidsearchResult.getText();
+	    WebDriverWait wait = new WebDriverWait(HelperClass.getDriver(), Duration.ofSeconds(10));
+	    WebElement element = wait.until(ExpectedConditions.refreshed(
+	        ExpectedConditions.visibilityOf(searchPageLocators.InvalidsearchResult)
+	    ));
+	    return element.getText();
 	}
-	
 	
 	 public void selectSortOption(String visibleText) {
 	        Select sortSelect = new Select(searchPageLocators.sortDropdown);
