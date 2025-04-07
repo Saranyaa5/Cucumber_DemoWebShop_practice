@@ -1,0 +1,99 @@
+2025-04-07 15:25:29 [main] INFO : Scenario started: Search for an available product after login
+2025-04-07 15:25:34 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:25:41 [main] INFO : Scenario passed: Search for an available product after login
+2025-04-07 15:25:42 [main] INFO : Scenario started: Search for an unavailable product after login
+2025-04-07 15:25:46 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:25:51 [main] INFO : Scenario passed: Search for an unavailable product after login
+2025-04-07 15:35:34 [main] INFO : Scenario started: Search for an available product after login
+2025-04-07 15:35:43 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:35:50 [main] INFO : Scenario passed: Search for an available product after login
+2025-04-07 15:35:51 [main] INFO : Scenario started: Search for an unavailable product after login
+2025-04-07 15:35:58 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:36:03 [main] INFO : Scenario passed: Search for an unavailable product after login
+2025-04-07 15:36:34 [main] INFO : Test started: runScenario
+2025-04-07 15:36:36 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 15:36:41 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:36:50 [main] INFO : filling the email of the send and receiver
+2025-04-07 15:36:52 [main] INFO : Scenario passed: Share the searched product to the friend
+2025-04-07 15:36:52 [main] INFO : Test passed: runScenario
+2025-04-07 15:36:52 [main] INFO : Test started: runScenario
+2025-04-07 15:36:53 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 15:37:01 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:37:11 [main] INFO : filling the email of the send and receiver
+2025-04-07 15:37:13 [main] INFO : Scenario passed: Share the searched product to the friend
+2025-04-07 15:37:13 [main] INFO : Test passed: runScenario
+2025-04-07 15:42:34 [main] INFO : Test started: runScenario
+2025-04-07 15:42:35 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 15:42:40 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:42:52 [main] INFO : filling the email of the send and receiver
+2025-04-07 15:42:54 [main] INFO : Scenario passed: Share the searched product to the friend
+2025-04-07 15:42:54 [main] INFO : Test passed: runScenario
+2025-04-07 15:42:54 [main] INFO : Test started: runScenario
+2025-04-07 15:42:55 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 15:43:03 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:43:13 [main] INFO : filling the email of the send and receiver
+2025-04-07 15:43:14 [main] INFO : Scenario passed: Share the searched product to the friend
+2025-04-07 15:43:14 [main] INFO : Test passed: runScenario
+2025-04-07 15:46:08 [main] INFO : Test started: runScenario
+2025-04-07 15:46:10 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 15:46:14 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:46:22 [main] INFO : filling the email of the send and receiver
+2025-04-07 15:46:24 [main] ERROR: Scenario failed: Share the searched product to the friend
+2025-04-07 15:46:26 [main] ERROR: Test failed: runScenario
+2025-04-07 15:46:26 [main] INFO : Test started: runScenario
+2025-04-07 15:46:27 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 15:46:33 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:46:43 [main] INFO : filling the email of the send and receiver
+2025-04-07 15:46:44 [main] ERROR: Scenario failed: Share the searched product to the friend
+2025-04-07 15:46:44 [main] ERROR: Test failed: runScenario
+2025-04-07 15:50:36 [main] INFO : Test started: runScenario
+2025-04-07 15:50:37 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 15:50:41 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:50:51 [main] INFO : filling the email of the send and receiver
+2025-04-07 15:50:53 [main] ERROR: Scenario failed: Share the searched product to the friend
+2025-04-07 15:50:53 [main] ERROR: Test failed: runScenario
+2025-04-07 15:50:53 [main] INFO : Test started: runScenario
+2025-04-07 15:50:54 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 15:51:00 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:51:09 [main] INFO : filling the email of the send and receiver
+2025-04-07 15:51:11 [main] ERROR: Scenario failed: Share the searched product to the friend
+2025-04-07 15:51:11 [main] ERROR: Test failed: runScenario
+2025-04-07 15:56:58 [main] INFO : Test started: runScenario
+2025-04-07 15:56:59 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 15:57:04 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:57:12 [main] INFO : filling the email of the send and receiver
+2025-04-07 15:57:14 [main] INFO : Scenario passed: Share the searched product to the friend
+2025-04-07 15:57:14 [main] INFO : Test passed: runScenario
+2025-04-07 15:57:14 [main] INFO : Test started: runScenario
+2025-04-07 15:57:15 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 15:57:23 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:57:32 [main] INFO : filling the email of the send and receiver
+2025-04-07 15:57:33 [main] INFO : Scenario passed: Share the searched product to the friend
+2025-04-07 15:57:34 [main] INFO : Test passed: runScenario
+2025-04-07 15:59:27 [main] INFO : Test started: runScenario
+2025-04-07 15:59:29 [main] INFO : Scenario started: Login to the DemoWebshop website
+2025-04-07 15:59:33 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:59:35 [main] INFO : Scenario passed: Login to the DemoWebshop website
+2025-04-07 15:59:35 [main] INFO : Test passed: runScenario
+2025-04-07 15:59:35 [main] INFO : Test started: runScenario
+2025-04-07 15:59:36 [main] INFO : Scenario started: Search for an available product after login
+2025-04-07 15:59:42 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 15:59:50 [main] INFO : Scenario passed: Search for an available product after login
+2025-04-07 15:59:50 [main] INFO : Test passed: runScenario
+2025-04-07 15:59:50 [main] INFO : Test started: runScenario
+2025-04-07 15:59:51 [main] INFO : Scenario started: Search for an unavailable product after login
+2025-04-07 15:59:56 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 16:00:01 [main] INFO : Scenario passed: Search for an unavailable product after login
+2025-04-07 16:00:02 [main] INFO : Test passed: runScenario
+2025-04-07 16:00:02 [main] INFO : Test started: runScenario
+2025-04-07 16:00:02 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 16:00:07 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 16:00:17 [main] INFO : filling the email of the send and receiver
+2025-04-07 16:00:18 [main] INFO : Scenario passed: Share the searched product to the friend
+2025-04-07 16:00:19 [main] INFO : Test passed: runScenario
+2025-04-07 16:00:19 [main] INFO : Test started: runScenario
+2025-04-07 16:00:20 [main] INFO : Scenario started: Share the searched product to the friend
+2025-04-07 16:00:24 [main] INFO : clicking the login button on top right coren in the home page
+2025-04-07 16:00:34 [main] INFO : filling the email of the send and receiver
+2025-04-07 16:00:35 [main] INFO : Scenario passed: Share the searched product to the friend
+2025-04-07 16:00:35 [main] INFO : Test passed: runScenario

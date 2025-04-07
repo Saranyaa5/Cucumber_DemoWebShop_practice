@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.runner.RunnerTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;Search for an available product after login&quot;, &quot;To search for a product on the homepage&quot;)">runScenario("Search for an available product after login", "To search for a product on the homepage")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,12 +103,27 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.runner.RunnerTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;Search for an unavailable product after login&quot;, &quot;To search for a product on the homepage&quot;)">runScenario("Search for an unavailable product after login", "To search for a product on the homepage")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.runner.RunnerTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;Share the searched product to the friend&quot;, &quot;To share the product to the friend&quot;)">runScenario("Share the searched product to the friend", "To share the product to the friend")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.runner.RunnerTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;Share the searched product to the friend&quot;, &quot;To share the product to the friend&quot;)">runScenario("Share the searched product to the friend", "To share the product to the friend")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.runner.RunnerTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;Login to the DemoWebshop website&quot;, &quot;Add Computer to Cart and Proceed to Checkout&quot;)">runScenario("Login to the DemoWebshop website", "Add Computer to Cart and Proceed to Checkout")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.runner.RunnerTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;Search for an unavailable product after login&quot;, &quot;To search for a product on the homepage&quot;)">runScenario("Search for an unavailable product after login", "To search for a product on the homepage")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.runner.RunnerTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;Search for an available product after login&quot;, &quot;To search for a product on the homepage&quot;)">runScenario("Search for an available product after login", "To search for a product on the homepage")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -137,50 +138,42 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.runner.RunnerTestNg</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Search for an available product after login&quot;, &quot;To search for a product on the homepage&quot;)">
-                  </a> <!-- runScenario("Search for an available product after login", "To search for a product on the homepage") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Search for an available product after login","To search for a product on the homepage")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;the user Sort the products by price low to high &quot;Price: Low to High&quot;&apos; is undefined.
-You can implement this step using the snippet(s) below:
-
-@Then(&quot;the user Sort the products by price low to high {string}&quot;)
-public void the_user_sort_the_products_by_price_low_to_high(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.runner.RunnerTestNg</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Share the searched product to the friend&quot;, &quot;To share the product to the friend&quot;)">
+                  </a> <!-- runScenario("Share the searched product to the friend", "To share the product to the friend") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Share the searched product to the friend","To share the product to the friend")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Share the searched product to the friend&quot;, &quot;To share the product to the friend&quot;)">
+                  </a> <!-- runScenario("Share the searched product to the friend", "To share the product to the friend") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Share the searched product to the friend","To share the product to the friend")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login to the DemoWebshop website&quot;, &quot;Add Computer to Cart and Proceed to Checkout&quot;)">
+                  </a> <!-- runScenario("Login to the DemoWebshop website", "Add Computer to Cart and Proceed to Checkout") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login to the DemoWebshop website","Add Computer to Cart and Proceed to Checkout")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="runScenario(&quot;Search for an unavailable product after login&quot;, &quot;To search for a product on the homepage&quot;)">
@@ -193,10 +186,10 @@ public void the_user_sort_the_products_by_price_low_to_high(String string) {
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login to the DemoWebshop website&quot;, &quot;Add Computer to Cart and Proceed to Checkout&quot;)">
-                  </a> <!-- runScenario("Login to the DemoWebshop website", "Add Computer to Cart and Proceed to Checkout") -->
+                  <a name="runScenario(&quot;Search for an available product after login&quot;, &quot;To search for a product on the homepage&quot;)">
+                  </a> <!-- runScenario("Search for an available product after login", "To search for a product on the homepage") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login to the DemoWebshop website","Add Computer to Cart and Proceed to Checkout")</span>
+                  <span class="parameters">("Search for an available product after login","To search for a product on the homepage")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -213,6 +206,9 @@ public void the_user_sort_the_products_by_price_low_to_high(String string) {
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.utilities.ListenerClass&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.runner.RunnerTestNg&quot;/&gt;
@@ -263,24 +259,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.runner.RunnerTestNg')
-data.setCell(0, 3, 10923);
+data.setCell(0, 3, 17078);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'com.runner.RunnerTestNg')
-data.setCell(1, 3, 9817);
+data.setCell(1, 3, 16110);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'com.runner.RunnerTestNg')
-data.setCell(2, 3, 6670);
+data.setCell(2, 3, 14799);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.runner.RunnerTestNg')
+data.setCell(3, 3, 11780);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.runner.RunnerTestNg')
+data.setCell(4, 3, 7801);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -308,26 +312,32 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.runner.RunnerTestNg</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@79f1e22e)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@246c2f56)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login to the DemoWebshop website", "Add Computer to Cart and Proceed to Checkout")</span>
-                <span class="method-start">593 ms</span>
+                <span class="method-start">852 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("Search for an available product after login", "To search for a product on the homepage")</span>
-                <span class="method-start">7266 ms</span>
+                <span class="method-start">8657 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Search for an unavailable product after login", "To search for a product on the homepage")</span>
-                <span class="method-start">18190 ms</span>
+                <span class="method-start">23458 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Share the searched product to the friend", "To share the product to the friend")</span>
+                <span class="method-start">35240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Share the searched product to the friend", "To share the product to the friend")</span>
+                <span class="method-start">52321 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">28007 ms</span>
+                <span class="method-start">68434 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

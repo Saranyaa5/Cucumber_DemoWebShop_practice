@@ -1,5 +1,7 @@
 package com.definitions;
 
+import org.apache.logging.log4j.LogManager;
+
 import org.testng.Assert;
 
 import com.actions.LoginPageAction;
@@ -9,9 +11,11 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.logging.log4j.Logger;
 
 public class LoginDefinition {
 	LoginPageAction objLogin =new LoginPageAction();
+	 private static final Logger logger = LogManager.getLogger(LoginDefinition.class);
 	@Given("the user is on the DemoWebshop home page {string}")
 	public void the_user_is_on_the_demo_webshop_home_page(String string) {
 		HelperClass.openPage(string);
@@ -19,6 +23,7 @@ public class LoginDefinition {
 
     @When("the user clicks the login button")
     public void the_user_clicks_the_login_button() {
+    	logger.info("clicking the login button on top right coren in the home page");
     	objLogin.clickHomePageLogin();
     }
 

@@ -2,7 +2,7 @@
 Feature: To search for a product on the homepage
 
   @ValidSearch
-  Scenario Outline: Search for an available product after login
+  Scenario: Search for an available product after login
     Given the user is on the DemoWebshop home page "https://demowebshop.tricentis.com/"
     When the user clicks the login button  
     And the user enters a valid email and password  
